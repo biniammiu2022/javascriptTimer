@@ -1,0 +1,15 @@
+p{
+    font-size: larger;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+h2{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+body{
+    margin: 20px;
+}

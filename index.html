@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="hh.css" rel="stylesheet" />
+  </head>
+  <body>
+    <pre>
+        <h2> Javascript Timer Exercises </h2>
+
+
+<p>1. What is the difference between the following 2 statements? </p>
+setTimeout(booyah, 2000);
+setTimeout(booyah(), 2000);
+
+
+Answers
+the booyah method is executed after 2 seconds, but the booyah() method is performed immediately.
+The booyah()function compiled immediately.
+
+
+<p>2 . What do the following 2 alerts display (answer without running the code)?</p>
+var myfunc = function(a, x) { 
+return a * x;
+ };
+ var x = myfunc(2, 3);
+ var y = myfunc; 
+alert(x); 
+alert(y(2,3));
+
+
+Answer
+           Both display 6;
+<p>3. Write functions booyah1 and booyah2 so that in both cases below, an alert box comes up after 2 seconds that says “BOOYAH!” </p>
+setTimeout(booyah1, 2000); 
+setTimeout(booyah2(), 2000);
+
+
+Answer
+
+
+Var booyah1 = function(){
+    alert(“BOOYAH”);
+}
+
+
+Function booyah2(){
+  alert(“BOOYAH”);
+}
+
+
+<p>4. What is "Unobtrusive Javascript"? What is the practical application of Unobtrusive Javascript (and the reasons for using it)?</p>
+
+
+Answer
+Unobtrusive in javascript separate  HTML with JavaScript code.
+uses the DOM to attach and execute all JavaScript functions.
+    </pre>
+  </body>
+</html>
